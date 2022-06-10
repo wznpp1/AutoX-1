@@ -49,7 +49,7 @@ jobs:
       - name: upload apk
         uses: actions/upload-artifact@master
         with:
-          name: autoxjs.apk
+          name: autoxjs2.apk
           path: build/app/signed
       - name: release
         uses: softprops/action-gh-release@v1
